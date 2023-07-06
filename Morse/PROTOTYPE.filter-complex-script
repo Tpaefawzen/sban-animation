@@ -1,0 +1,59 @@
+movie=
+	filename = '/Path/To/Projects/common-naruana/white-square.jpg'
+	:loop = 1
+[img0m0]
+;
+
+movie=
+	filename = '/Path/To/Projects/common-naruana/black-square.jpg'
+	:loop = 1
+[img1m0]
+;
+
+[img0m0]
+split
+[img0m1]
+[t0]
+;
+
+[t0]
+loop =
+	loop = 25
+	:size = 1
+[seq0]
+;
+
+[img1m0]
+split
+[img1m1]
+[t1]
+;
+
+[t1]
+loop =
+	loop = '25 / 2'
+	:size = 1
+[seq1]
+;
+
+[img0m1]
+split
+[img0m2]
+[t2]
+;
+
+[t2]
+loop =
+	loop = '25 / 2'
+	:size = 1
+[seq2]
+;
+
+[img0m2]
+nullsink;
+
+[img1m1]
+nullsink;
+
+[seq0][seq1][seq2]
+concat=3

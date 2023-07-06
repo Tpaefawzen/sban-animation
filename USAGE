@@ -1,0 +1,33 @@
+== What they do ==
+Tools to generate
+
+- morse code animation
+- lattice animation
+- braille animation
+
+from MIDI file. Very simplified so you may want to customize scripts.
+
+== Prerequired items ==
+Languages are Python and shellscript.
+The shell scripts try to invoke magick(1) from ImageMagick and ffmpeg(1) from FFmpeg.
+
+== File name naming convention ==
+LevelN where N increments from 0
+
+== Procedures: preparation ==
+1. Generate your MIDI file with your DAW software.
+2. ./mid2level0.py
+3. ./level0-to-level1.sh
+4. And how do I describe each item for morse code animation generator, lattice animation generator, and braille animation generator?
+
+== Morse code animation generator ==
+1. Make two images: one for when morse is off and the other is for off.
+2. ./tolevel2.sh, ...
+
+== Lattice animation generator ==
+1. ./generate.sh in img
+2. ./tolevel2.sh, ...
+
+== Braille animation generator ==
+1. ./generate.sh in img
+2. ./tolevel2.sh, ...

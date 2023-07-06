@@ -1,0 +1,17 @@
+ffconcat version 1.0
+# for ffmpeg-formats 3.5 concat
+
+file '/Path/To/Projects/common-naruana/white-square.jpg'
+duration 1s
+
+file '/Path/To/Projects/common-naruana/black-square.jpg'
+duration 0.5s
+
+file '/Path/To/Projects/common-naruana/white-square.jpg'
+duration 0.5s
+
+file '/Path/To/Projects/common-naruana/black-square.jpg'
+duration 1s
+
+# file ~/Projects/common-naruana/white-square.jpg
+# file ~/Projects/common-naruana/black-square.jpg
