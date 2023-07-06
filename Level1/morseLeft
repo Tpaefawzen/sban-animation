@@ -1,0 +1,38 @@
+ MidiTrack  
+  MetaMessage  track_name   name  morseLeft   time 0  
+  MetaMessage  set_tempo   tempo 454545  time 0  
+  Message  note_on   channel 0  note 83  velocity 64  time 25088  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 48  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 48  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 48  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 48  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 48  
+  Message  note_on   channel 0  note 83  velocity 64  time 16  
+  Message  note_off   channel 0  note 83  velocity 64  time 16  
+  MetaMessage  end_of_track   time 0    

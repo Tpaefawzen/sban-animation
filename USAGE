@@ -9,7 +9,7 @@ from MIDI file. Very simplified so you may want to customize scripts.
 
 == Prerequired items ==
 Languages are Python and shellscript.
-The shell scripts try to invoke magick(1) from ImageMagick and ffmpeg(1) from FFmpeg.
+The shell scripts try to invoke magick(1) from ImageMagick and ffmpeg(1) from FFmpeg and self(1) from ShellShoccar-jpn/Open-Usp-Tukubai.
 
 == File name naming convention ==
 LevelN where N increments from 0
@@ -22,6 +22,7 @@ LevelN where N increments from 0
 
 == Morse code animation generator ==
 1. Make two images: one for when morse is off and the other is for off.
+2. ./extract-morse.sh
 2. ./tolevel2.sh, ...
 
 == Lattice animation generator ==
